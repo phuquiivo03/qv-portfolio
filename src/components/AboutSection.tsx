@@ -16,7 +16,7 @@ const AboutSection = () => {
           <div className="neon-border rounded-xl p-1 animate-fadeIn opacity-0" style={{ animationDelay: '0.2s' }}>
             <div className="bg-muted rounded-lg overflow-hidden h-full">
               <img 
-                src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                src="https://crimson-eldest-pike-581.mypinata.cloud/ipfs/bafybeiaw6nxqcnwgh6vl5r2hdctrkrdri5gsdo7xh7vjt2vana6duilzcu" 
                 alt="Developer" 
                 className="w-full h-full object-cover" 
               />
