@@ -51,13 +51,13 @@ const HeroSection = () => {
         </div>
 
         <div className="flex justify-center space-x-6 mt-8 animate-fadeIn opacity-0" style={{ animationDelay: '1s' }}>
-          <a href="#" className="text-gray-400 hover:text-neon-blue transition-colors duration-300">
+          <a href="https://github.com/phuquiivo03" className="text-gray-400 hover:text-neon-blue transition-colors duration-300">
             <Github className="w-6 h-6" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-neon-blue transition-colors duration-300">
+          <a href="https://www.linkedin.com/in/qui-vo-12921a293/" className="text-gray-400 hover:text-neon-blue transition-colors duration-300">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-neon-blue transition-colors duration-300">
+          <a href="#contact" className="text-gray-400 hover:text-neon-blue transition-colors duration-300">
             <Mail className="w-6 h-6" />
           </a>
         </div>

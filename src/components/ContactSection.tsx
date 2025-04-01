@@ -74,17 +74,17 @@ const ContactSection = () => {
             <ContactItem 
               icon={<Mail className="w-6 h-6" />} 
               title="Email" 
-              content="contact@example.com" 
+              content="phuquivo03.cb@gmail.com" 
             />
             <ContactItem 
               icon={<Phone className="w-6 h-6" />} 
               title="Phone" 
-              content="+1 (123) 456-7890" 
+              content="+84 773-171-203" 
             />
             <ContactItem 
               icon={<MapPin className="w-6 h-6" />} 
               title="Location" 
-              content="New York City, USA" 
+              content="Ho Chi Minh City, USA" 
             />
 
             <div className="pt-8 animate-fadeIn opacity-0" style={{ animationDelay: '0.4s' }}>

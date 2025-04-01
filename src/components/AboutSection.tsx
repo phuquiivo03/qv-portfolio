@@ -33,7 +33,7 @@ const AboutSection = () => {
               user-friendly applications that solve real-world problems.
             </p>
             <p className="text-gray-300">
-              My journey in software development began over 5 years ago, and since then, 
+              My journey in software development began over 3 years ago, and since then, 
               I've worked on diverse projects ranging from e-commerce platforms to complex 
               enterprise solutions. I thrive in collaborative environments and enjoy tackling 
               challenging problems.
@@ -46,15 +46,15 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="space-y-1">
                 <p className="text-neon-green font-medium">Name:</p>
-                <p className="text-gray-300">John Doe</p>
+                <p className="text-gray-300">Vo Nguyen Phu Qui</p>
               </div>
               <div className="space-y-1">
                 <p className="text-neon-green font-medium">Email:</p>
-                <p className="text-gray-300">john@example.com</p>
+                <p className="text-gray-300">phuquivo03.cb@gmail.com</p>
               </div>
               <div className="space-y-1">
                 <p className="text-neon-green font-medium">Location:</p>
-                <p className="text-gray-300">New York, USA</p>
+                <p className="text-gray-300">Ho Chi Minh, Vietnam</p>
               </div>
               <div className="space-y-1">
                 <p className="text-neon-green font-medium">Availability:</p>
