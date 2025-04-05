@@ -30,7 +30,7 @@ const HeroSection = () => {
 
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto animate-fadeIn opacity-0" style={{ animationDelay: '0.6s' }}>
           I build modern web applications with cutting-edge technologies.
-          Specializing in both frontend and backend development.
+          Specializing in both frontend - backend and blockchain development.
         </p>
 
         <div className="flex justify-center space-x-4 animate-fadeIn opacity-0" style={{ animationDelay: '0.8s' }}>

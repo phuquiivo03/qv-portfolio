@@ -16,7 +16,7 @@ const AboutSection = () => {
           <div className="neon-border rounded-xl p-1 animate-fadeIn opacity-0" style={{ animationDelay: '0.2s' }}>
             <div className="bg-muted rounded-lg overflow-hidden h-full">
               <img 
-                src="https://crimson-eldest-pike-581.mypinata.cloud/ipfs/bafybeiaw6nxqcnwgh6vl5r2hdctrkrdri5gsdo7xh7vjt2vana6duilzcu" 
+                src="public/profile-image.jpg" 
                 alt="Developer" 
                 className="w-full h-full object-cover" 
               />
@@ -29,14 +29,11 @@ const AboutSection = () => {
             </h3>
             <p className="text-gray-300">
               I am a passionate fullstack developer with expertise in modern web technologies. 
-              With a strong foundation in both frontend and backend development, I create seamless, 
+              With a strong foundation in both frontend and backend development and blockchain development through some hackathons and real projects, I create seamless, 
               user-friendly applications that solve real-world problems.
             </p>
             <p className="text-gray-300">
-              My journey in software development began over 3 years ago, and since then, 
-              I've worked on diverse projects ranging from e-commerce platforms to complex 
-              enterprise solutions. I thrive in collaborative environments and enjoy tackling 
-              challenging problems.
+            My journey in software development began 3 years ago, starting with hackathon projects that sparked my passion for building real-world solutions. Since then, I’ve worked on various projects at work. I thrive in collaborative environments and enjoy solving challenging problems that push my skills forward.
             </p>
             <p className="text-gray-300">
               When I'm not coding, you can find me exploring new technologies, contributing to 

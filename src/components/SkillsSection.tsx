@@ -1,6 +1,44 @@
-
 import React from 'react';
-import { Code, Database, Layout, Server, Terminal, Globe } from 'lucide-react';
+import { Code, Database, Layout, Server, Terminal, Blocks } from 'lucide-react';
+
+// Define color mapping for all class variations we need
+const colorVariants = {
+  'neon-blue': {
+    border: 'border-neon-blue/30 hover:border-neon-blue',
+    shadow: 'hover:shadow-neon-blue',
+    bg: 'bg-neon-blue/20',
+    text: 'text-neon-blue',
+    dot: 'bg-neon-blue'
+  },
+  'neon-purple': {
+    border: 'border-neon-purple/30 hover:border-neon-purple',
+    shadow: 'hover:shadow-neon-purple',
+    bg: 'bg-neon-purple/20',
+    text: 'text-neon-purple',
+    dot: 'bg-neon-purple'
+  },
+  'neon-green': {
+    border: 'border-neon-green/30 hover:border-neon-green',
+    shadow: 'hover:shadow-neon-green',
+    bg: 'bg-neon-green/20',
+    text: 'text-neon-green',
+    dot: 'bg-neon-green'
+  },
+  'neon-pink': {
+    border: 'border-neon-pink/30 hover:border-neon-pink',
+    shadow: 'hover:shadow-neon-pink',
+    bg: 'bg-neon-pink/20',
+    text: 'text-neon-pink',
+    dot: 'bg-neon-pink'
+  },
+  'neon-yellow': {
+    border: 'border-neon-yellow/30 hover:border-neon-yellow',
+    shadow: 'hover:shadow-neon-yellow',
+    bg: 'bg-neon-yellow/20',
+    text: 'text-neon-yellow',
+    dot: 'bg-neon-yellow'
+  }
+};
 
 const SkillCard = ({ title, icon, skills, color, delay }: { 
   title: string; 
@@ -9,21 +47,23 @@ const SkillCard = ({ title, icon, skills, color, delay }: {
   color: string;
   delay: string;
 }) => {
+  const colorClasses = colorVariants[color as keyof typeof colorVariants];
+  
   return (
     <div 
-      className={`p-6 rounded-lg bg-muted/40 backdrop-blur-sm border border-${color}/30 hover:border-${color} 
-                 transition-all duration-300 hover:shadow-${color} group animate-fadeIn opacity-0`} 
+      className={`p-6 rounded-lg bg-muted/40 backdrop-blur-sm border ${colorClasses.border} 
+                 transition-all duration-300 ${colorClasses.shadow} group animate-fadeIn opacity-0`} 
       style={{ animationDelay: delay }}
     >
       <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-4 
-                     bg-${color}/20 text-${color} group-hover:scale-110 transition-transform duration-300`}>
+                     ${colorClasses.bg} ${colorClasses.text} group-hover:scale-110 transition-transform duration-300`}>
         {icon}
       </div>
       <h3 className="text-xl font-bold mb-4 text-white">{title}</h3>
       <ul className="space-y-2">
         {skills.map((skill, i) => (
           <li key={i} className="text-gray-300 flex items-center">
-            <span className={`inline-block w-2 h-2 rounded-full bg-${color} mr-2`}></span>
+            <span className={`inline-block w-2 h-2 rounded-full ${colorClasses.dot} mr-2`}></span>
             {skill}
           </li>
         ))}
@@ -53,10 +93,10 @@ const SkillsSection = () => {
       skills: ["SQL & NoSQL", "MongoDB", "PostgreSQL", "Database Design"]
     },
     {
-      title: "Web Development",
-      icon: <Globe className="w-6 h-6" />,
+      title: "Blockchain Development",
+      icon: <Blocks className="w-6 h-6" />,
       color: "neon-pink",
-      skills: ["Responsive Design", "Web Performance", "SEO Optimization", "Web Accessibility"]
+      skills: ["Sui Network", "Aptos Network", "Near protocol", "Solana"]
     },
     {
       title: "Development Tools",

@@ -134,6 +134,7 @@ export default {
 				'neon-pink': '0 0 5px theme(colors.neon.pink), 0 0 20px theme(colors.neon.pink)',
 				'neon-green': '0 0 5px theme(colors.neon.green), 0 0 20px theme(colors.neon.green)',
 				'neon-yellow': '0 0 5px theme(colors.neon.yellow), 0 0 20px theme(colors.neon.yellow)',
+				'neon-blue': '0 0 5px theme(colors.neon.blue), 0 0 20px theme(colors.neon.blue)',
 			},
 			textShadow: {
 				neon: '0 0 5px rgba(0, 243, 255, 0.8), 0 0 10px rgba(0, 243, 255, 0.5), 0 0 15px rgba(0, 243, 255, 0.3)',
