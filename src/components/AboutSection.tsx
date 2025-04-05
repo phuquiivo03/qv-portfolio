@@ -16,7 +16,7 @@ const AboutSection = () => {
           <div className="neon-border rounded-xl p-1 animate-fadeIn opacity-0" style={{ animationDelay: '0.2s' }}>
             <div className="bg-muted rounded-lg overflow-hidden h-full">
               <img 
-                src="public/profile-image.jpg" 
+                src="/profile-image.jpg" 
                 alt="Developer" 
                 className="w-full h-full object-cover" 
               />
