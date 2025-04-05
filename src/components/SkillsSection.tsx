@@ -84,7 +84,7 @@ const SkillsSection = () => {
       title: "Backend Development",
       icon: <Server className="w-6 h-6" />,
       color: "neon-purple",
-      skills: ["Node.js", "Express", "API Development", "Authentication Systems"]
+      skills: ["Node.js - npm - bun 🧅", "Express", "API Development", "Authentication Systems"]
     },
     {
       title: "Database Management",
@@ -96,19 +96,19 @@ const SkillsSection = () => {
       title: "Blockchain Development",
       icon: <Blocks className="w-6 h-6" />,
       color: "neon-pink",
-      skills: ["Sui Network", "Aptos Network", "Near protocol", "Solana"]
+      skills: ["Sui Network 💧", "Aptos Network", "Near protocol", "Solana"]
     },
     {
       title: "Development Tools",
       icon: <Terminal className="w-6 h-6" />,
       color: "neon-yellow",
-      skills: ["Git & GitHub", "Docker", "CI/CD", "Testing Frameworks"]
+      skills: ["Git & GitHub", "Docker", "CI/CD", "Testing Frameworks", "EC2 "]
     },
     {
       title: "Programming Languages",
       icon: <Code className="w-6 h-6" />,
       color: "neon-blue",
-      skills: ["JavaScript", "TypeScript", "Python", "HTML/CSS"]
+      skills: ["JavaScript/TypeScript", "Move", "CSharp","Python", "HTML/CSS"]
     }
   ];
 

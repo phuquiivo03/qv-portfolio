@@ -84,7 +84,7 @@ const ContactSection = () => {
             <ContactItem 
               icon={<MapPin className="w-6 h-6" />} 
               title="Location" 
-              content="Ho Chi Minh City, USA" 
+              content="Ho Chi Minh City, Vietnam" 
             />
 
             <div className="pt-8 animate-fadeIn opacity-0" style={{ animationDelay: '0.4s' }}>
