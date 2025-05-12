@@ -35,10 +35,10 @@ const HeroSection = () => {
 
         <div className="flex justify-center space-x-4 animate-fadeIn opacity-0" style={{ animationDelay: '0.8s' }}>
           <a
-            href="#contact"
+            href="/resumes.pdf"
             className="neon-button"
           >
-            Get in Touch
+            Resume
           </a>
           <a 
             href="#projects"

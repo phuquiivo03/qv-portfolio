@@ -13,46 +13,58 @@ interface Project {
   color: string;
 }
 
+
+
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with user authentication, product catalog, shopping cart, and payment integration.",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+    title: "Suistack",
+    description: "A platform that empowers users to develop, build, deploy, and visualize smart contracts on the Sui network with ease. Includes tools for interacting with contracts through actions like minting NFTs and transferring assets.",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+    tags: ["Node.js", "Sui Network", "MongoDB"],
     liveLink: "#",
     repoLink: "#",
     color: "neon-blue"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, user assignments, and progress tracking features.",
-    image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+    title: "Wecastle",
+    description: "An on-chain game integrated with the Sui network, developed with Unity, React, and NestJS.",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+    tags: ["Unity", "React", "NestJS", "MongoDB", "Sui Network"],
     liveLink: "#",
-    repoLink: "#",
-    color: "neon-purple"
-  },
-  {
-    id: 3,
-    title: "Fitness Tracker",
-    description: "A personal fitness tracking application with workout planning, progress visualization, and nutritional guidance.",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    tags: ["React Native", "Firebase", "Chart.js", "Express"],
-    liveLink: "#",
-    repoLink: "#",
+    repoLink: "https://github.com/Weminal-labs/wecastle-contract",
     color: "neon-green"
   },
   {
-    id: 4,
-    title: "Social Media Dashboard",
-    description: "A comprehensive dashboard for social media analytics and content management across multiple platforms.",
+    id: 3,
+    title: "Wedata",
+    description: "An on-chain platform for storing and trading data, built with NEAR protocol.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
-    tags: ["Vue.js", "Node.js", "GraphQL", "Redis"],
+    tags: ["React", "TypeScript", "NEAR Protocol"],
+    liveLink: "#",
+    repoLink: "https://github.com/phuquiivo03/wedata",
+    color: "neon-purple"
+  },
+  {
+    id: 4,
+    title: "Wecycler",
+    description: "An on-chain platform for storing and trading data, similar to Wedata, utilizing NEAR protocol.",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+    tags: ["React", "TypeScript", "NEAR Protocol"],
+    liveLink: "#",
+    repoLink: "https://github.com/phuquiivo03/Wecycler",
+    color: "neon-orange"
+  },
+  {
+    id: 5,
+    title: "Deepsynth",
+    description: "An AI-powered agent that simplifies DeFi interactions like trading, limit orders, staking, and portfolio tracking across multiple platforms.",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+    tags: ["Node.js", "MongoDB", "Cetus Protocols", "Sui Network"],
     liveLink: "#",
     repoLink: "#",
-    color: "neon-pink"
+    color: "neon-red"
   }
 ];
 
